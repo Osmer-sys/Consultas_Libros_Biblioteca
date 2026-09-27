@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core\Library.Domain\Library.Domain.csproj" />
+    <Project Path="Core\Library.Application\Library.Application.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure\Library.Persistence\Library.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presenters/">
+    <Project Path="Presenters\Library.API\Library.API.csproj" />
+  </Folder>
+</Solution>
