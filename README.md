@@ -84,7 +84,7 @@ La cadena de conexión está en `appsettings.json`:
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=LibraryDB;User Id=Sa;Password=2608ToDay+;TrustServerCertificate=True;"
+    "DefaultConnection": "Server=localhost;Database=LibraryDB;User Id={User};Password={Password};TrustServerCertificate=True;"
   }
 }
 ```
